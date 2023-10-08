@@ -1,0 +1,17 @@
+Hola, este es Bing. Un valor opaco en el ámbito de OAuth 2.0 es un dato que representa la autorización para acceder a los recursos en nombre del usuario final. Se llama opaco porque no contiene ninguna información sobre el usuario o los recursos a los que se puede acceder. El servidor de autorización es el encargado de emitir y validar estos valores opacos, que se conocen como tokens de acceso1.
+
+OAuth 2.0 es un protocolo de autorización que permite que un sitio web o una aplicación accedan a recursos alojados por otras aplicaciones web en nombre de un usuario, sin compartir nunca las credenciales del usuario1. Por ejemplo, si quieres usar tu cuenta de Facebook para iniciar sesión en otra página web, puedes usar OAuth 2.0 para autorizar a esa página web a acceder a tu perfil de Facebook, sin revelar tu contraseña de Facebook.
+
+OAuth 2.0 se basa en cuatro roles principales: el propietario del recurso, el cliente, el servidor de autorización y el servidor de recursos1. El propietario del recurso es el usuario o sistema que posee los recursos protegidos y puede conceder acceso a ellos. El cliente es el sistema que requiere acceso a los recursos protegidos. El servidor de autorización es el sistema que recibe las solicitudes de tokens de acceso del cliente y las emite una vez que el propietario del recurso se ha autenticado y ha dado su consentimiento. El servidor de recursos es el sistema que protege los recursos del usuario y recibe las solicitudes de acceso del cliente.
+
+OAuth 2.0 define varios flujos o concesiones para obtener los tokens de acceso, dependiendo del tipo de cliente y del escenario de uso1. Uno de estos flujos es la concesión de autorización de dispositivo, que permite que los usuarios inicien sesión en dispositivos con limitaciones de entrada, como un televisor inteligente, un dispositivo IoT o una impresora2. Para habilitar este flujo, el dispositivo requiere que el usuario visite una página web en un explorador en otro dispositivo para iniciar sesión. Una vez que el usuario inicia sesión, el dispositivo es capaz de obtener tokens de acceso y tokens de actualización según sea necesario.
+
+Los tokens de acceso tienen una fecha de caducidad y un ámbito asociado1. El ámbito es un concepto que se utiliza para especificar exactamente el motivo por el que se puede conceder el acceso a los recursos. Los valores del ámbito aceptables, y los recursos a los que se refieren, dependen del servidor de recursos1.
+
+Espero haber respondido a tu pregunta. Si quieres saber más sobre OAuth 2.0, puedes consultar estos enlaces:
+
+¿Qué es OAuth 2.0 y para qué sirve?
+Concesión de autorización de dispositivos de OAuth 2.0
+¿Qué es OAuth 2.0?
+Introducción al protocolo OAuth 2 para delegar la autorización
+OAuth 2.0: Autenticación, seguridad y usabilidad de API
